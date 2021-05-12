@@ -1,0 +1,137 @@
+
+.api {
+  border: 5px solid rgb(230, 157, 48);
+  box-shadow: 2px 18px 70px 0px #ce9567;
+  border-radius: 2rem;
+  margin: 1.8rem 1.9rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5rem 1rem 2rem;
+  text-align: center;
+}
+
+
+.api p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.other {
+  border: 2px solid black;
+}
+.news-container {
+  width: 7.5rem;
+  padding-right: 4rem;
+}
+.music-container {
+  width: 10rem;
+}
+.syllabaries-container {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid rgb(230, 157, 48);
+  box-shadow: 2px 18px 70px 0px #ce9567;
+  border-radius: 2rem;
+  margin: 1.8rem 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5rem 2rem 2rem;
+  text-align: center;
+}
+.syllabaries-container p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.basic {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+.basic img {
+  height: 20rem;
+  width: 15rem;
+}
+.hiragana {
+  padding-right: 6rem;
+}
+.combined img {
+  height: 30rem;
+  width: 15rem;
+  padding-top: 2rem;
+}
+.other {
+  border: 5px solid rgb(230, 157, 48);
+  box-shadow: 2px 18px 70px 0px #ce9567;
+  border-radius: 2rem;
+  margin: 1.8rem 2rem;
+  display: flex;
+  /* justify-content: space-evenly; */
+  padding: 0.5rem 1rem 2rem;
+  text-align: center;
+}
+.other p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.videos-container {
+  width: 8.1rem;
+  padding-right: 2rem;
+}
+.blogs-container {
+  width: 10rem;
+}
+
+.syllabaries-container button {
+  background: #9e0505;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  border: 1px solid white;
+  margin: 0rem 4.5rem;
+
+
+}
+
+.syllabaries-container button:hover,
+.syllabaries-container button:focus {
+  background: #ffffff;
+  border: none;
+  color: #9e0505;
+  font-weight: bolder;
+}
+
+.api button {
+  background: #9e0505;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  border: 1px solid white;
+
+}
+.api button:hover,
+.api button:focus {
+  background: #ffffff;
+  border: none;
+  color: #9e0505;
+  font-weight: bolder;
+}
+
+.other button {
+  background: #9e0505;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  border: 1px solid white;
+
+}
+.other button:hover,
+.other button:focus {
+  background: #ffffff;
+  border: none;
+  color: #9e0505;
+  font-weight: bolder;
+}
+
+.videos li {
+  font-size: 0.1rem;
+}

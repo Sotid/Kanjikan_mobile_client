@@ -1,0 +1,9 @@
+.basic {
+  display: flex;
+  flex-direction: column;
+}
+
+.basic img {
+  height: 20rem;
+  width: 20rem;
+}

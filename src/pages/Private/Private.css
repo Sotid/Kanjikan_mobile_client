@@ -1,0 +1,44 @@
+.user-details {
+  padding: 2em 4em;
+}
+.edit-btn {
+  outline: 0;
+  background: rgb(230 157 48);
+  width: 10%;
+  border: 0;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.edit-btn:hover,
+.edit-btn:focus {
+  background: #a15e06;
+}
+.profile-columns {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.profile-columns .flip-container {
+  width: 45%;
+  min-height: 100px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background-clip: content-box;
+}
+.delete-bookmarks {
+  background: #9e0505;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+}
+.delete-bookmarks:hover,
+.delete-bookmarks:focus {
+  background: #ffffff;
+  border: none;
+  color: #9e0505;
+  font-weight: bolder;
+}

@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=RocknRoll+One&display=swap");
+
+.options {
+  padding: 0.8rem;
+  margin: 0.8rem;
+  color: red;
+  border: 2px solid #000;
+  cursor: pointer;
+  background: transparent;
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 16px;
+}
+.options:hover {
+  background-color: rgba(230, 157, 48, 0.486);
+  border: 2px solid red;
+  font-size: 18px;
+}
+.options:focus {
+  background-color: rgb(204, 137, 36);
+  color: white;
+  font-size: 18px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.quiz-container {
+  width: 45%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.question {
+  font-size: 7rem;
+}
+
+.quiz-container span {
+  font-size: 1.5rem;
+}
+
+.score {
+  display:flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  border: 2px solid rgb(161, 2, 2);
+  padding: 1.1rem;
+  margin: 5rem;
+
+}
+.restart-btn {
+  background: rgb(161, 2, 2);
+  width: 50%;
+  border: 0;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin: 3rem 2.3rem;
+
+}
+
+.finish-btn:hover,
+.finish-btn:focus {
+  background: #ff0000;
+}
