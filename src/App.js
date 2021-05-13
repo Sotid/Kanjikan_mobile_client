@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Switch, Route, Redirect } from "react-router-dom";
+import { AuthProvider } from '../src/context/auth.context';
 
 // Pages
 import Home from "./pages/Home/Home";
@@ -20,14 +21,15 @@ import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 function App () {
 
     return (
+      <AuthProvider>
       <div className="container">
         <Navbar />
 
         <Switch>
-         <Route exact path="/">
-           <Redirect to="/login" />
+         {/* <Route exact path="/">
+           <Redirect to="/lessons" />
 
-         </Route>
+         </Route> */}
 
           <AnonRoute exact path="/signup" component={Signup} />
           <AnonRoute exact path="/login" component={Login} />
@@ -42,6 +44,7 @@ function App () {
           <PrivateRoute exact path="/quiz" component={Quiz} />
         </Switch>
       </div>
+      </AuthProvider>
     );
   }
 

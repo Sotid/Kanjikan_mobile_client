@@ -38,6 +38,8 @@ useEffect(() => {
             on_readings,
           } = singleKanji;
           return (
+            <div>
+            <h3>Click on the cards to start learning</h3>
             <div
               key={singleKanji._id}
               className="flip-container"
@@ -60,6 +62,7 @@ useEffect(() => {
                   </ul>
                 </div>
               </div>
+            </div>
             </div>
           );
         })}
