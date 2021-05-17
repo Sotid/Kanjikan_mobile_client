@@ -1,5 +1,4 @@
 .edit-container {
-  padding: 10%;
   text-align: center;
   display: flex;
   align-items: center;
@@ -14,8 +13,7 @@
   position: relative;
   z-index: 1;
   background: #ffffff;
-  max-width: 360px;
-  margin-top: -5em;
+  margin-top: 2rem;
   padding: 45px;
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);

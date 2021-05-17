@@ -60,7 +60,7 @@ function Private (props) {
                 } = data;
                 return (
                   <div
-                    className="flip-container"
+                    className="flip-container-private"
                     ontouchstart="this.classList.toggle('hover');"
                   >
                     <div className="flipper">

@@ -28,6 +28,8 @@ useEffect(() => {
     if (!isReady) return <img src={spinnerURL} alt="loading spinner" />;
     return (
       <div className="card">
+                  <h3>Click on the cards to start learning</h3>
+
         {kanji.kanji && kanji.kanji.map((singleKanji) => {
           const {
             kanji,
@@ -38,8 +40,6 @@ useEffect(() => {
             on_readings,
           } = singleKanji;
           return (
-            <div>
-            <h3>Click on the cards to start learning</h3>
             <div
               key={singleKanji._id}
               className="flip-container"
@@ -62,7 +62,6 @@ useEffect(() => {
                   </ul>
                 </div>
               </div>
-            </div>
             </div>
           );
         })}

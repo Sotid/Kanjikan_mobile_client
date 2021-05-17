@@ -23,7 +23,6 @@ function App () {
     return (
       <AuthProvider>
       <div className="container">
-        <Navbar />
 
         <Switch>
          {/* <Route exact path="/">
@@ -33,6 +32,8 @@ function App () {
 
           <AnonRoute exact path="/signup" component={Signup} />
           <AnonRoute exact path="/login" component={Login} />
+ <div>
+ <Navbar />
 
           <PrivateRoute exact path="/lessons" component={Home} />
           <PrivateRoute exact path="/resources" component={Resources} />
@@ -42,6 +43,7 @@ function App () {
           <PrivateRoute exact path="/private" component={Private} />
           <PrivateRoute exact path="/dictionary" component={Dictionary} />
           <PrivateRoute exact path="/quiz" component={Quiz} />
+          </div>
         </Switch>
       </div>
       </AuthProvider>

@@ -17,13 +17,18 @@
 .edit-btn:focus {
   background: #a15e06;
 }
+
+
 .profile-columns {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   width: 100%;
+  align-content: center;
 }
-.profile-columns .flip-container {
-  width: 45%;
+
+.card .flip-container-private {
+  width: 130%;
   min-height: 100px;
   padding: 0 20px;
   box-sizing: border-box;
